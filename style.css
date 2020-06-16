@@ -1,100 +1,282 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900);
 body {
-  background-color: #010302;
-  font-family: 'Baloo Bhaina 2', cursive;
-  color: white;
-  font-size: 24px;
-  line-height: 26px;
-}
-
-a {
-  text-align: center;
-  color: lime;
-  text-decoration: none;
-}
-
-a:hover {
-  color: yellow;
-  text-decoration: underline overline;
-}
-
-.container {
-  width: 963px;
-  margin: 0 auto;
-}
-
-.img-circle {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 250px;
-  border-radius: 52%;
-  }
-
-.card {
-  background: black;
-  padding: 30px;
-  border: 1px solid lightgrey;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5)
-}
-
-.img-circle:hover {
-  opacity: 1.0;
-}
-
-.btn-blue {
-  background-color: #040805;
-  padding: 10px 25px;
-  border-radius: 9px;
-  text-align: center;
-}
-
-.btn-blue:hover {
-  background-color: black;
-}
-
-body:hover {
-  background-color: #040805;
-}
-
-.list-inline > li {
-  display: inline-block;
-  padding: 0px 20px;
-}
-
-.list-inline {
-  list-style: none;
-  padding-left: 0px;
-}
- .text-center {
-  text-align: center;
- }
-
-.card h1, h2 {
-  font-size: 32px;
-  line-height: 36px;
   font-family: 'Roboto', sans-serif;
+}
+.watermark-1 {
+  position:absolute;
+  top:2px;
+  left:1px;
+  color:white;
+  font-weight:100;
+  font-size:10px;
+}
+.watermark-2 {
+  position:absolute;
+  bottom:-5px;
+  right:5px;
+  color:white;
+  font-weight:100;
+  font-size:10px;
+
+}
+
+.navbar {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin-top: 100px;
+  top: 65%;
+  left: 50%;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  padding: 5px;
+  margin: 20px 30px 0 0;
+  width: 80px;
+  font-size: 15px;
+  font-weight: 300;
   text-align: center;
 }
 
-div .links-to-center {
-  text-align: center;
+@media screen and (max-height:700px) {
+  .middle-row {
+    top: 20%;
+  }
+  .middle-row img {
+    width: 200px;
+    height: 200px;
+  }
+  .social-media img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
-/*responsive media css rules?*/
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
+@media screen and (max-width:650px) {
+  .social-media img {
+    width: 30px;
+    height: 30px;
   }
 }
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
+
+@media screen and (max-width: 906px) {
+  .navbar li a {
+    width: 60px;
+    padding: px;
+    font-size: 14px;
   }
 }
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
+
+@media screen and (max-width: 749px) {
+  .navbar li {
+    float: none;
   }
+  .navbar li a {
+    width: 80px
+  }
+  .middle-row {
+    top: 20%;
+  }
+  .navbar-fixed {
+    visibility: hidden;
+  }
+}
+
+.navbar li a:hover {
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  transform: scale(1.15);
+  background-color: #fff;
+  color: #000;
+  border-radius: 0;
+}
+
+
+/*
+.navbar-fixed {
+  top:-6.5%;
+  left:50%;
+  z-index: 100;
+  position: fixed;
+
+}
+
+.navbar-fixed li {
+  background-color: #fefefe;
+}
+.navbar-fixed li a {
+  color:black;
+  height:30px;
+  border-radius:5px;
+} */
+
+.box-1 {
+  width: 100%;
+  min-height: 800px;
+  max-height: 1100px;
+  background: url(images/banner.png) no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.middle-row {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  margin-top: 60px;
+  top: 25%;
+  left: 50%;
+}
+
+@media screen and (min-width:750px) {
+  .middle-row {
+    top: 35%;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .middle-row {
+    top: 20%;
+  }
+}
+
+.middle-row img {
+  border-radius: 100%;
+  max-width: 255px;
+  max-height: 255px;
+}
+
+.name {
+  margin: 20px 0 0 0;
+}
+
+.name p {
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+}
+
+.social-media {
+  top: 25px;
+}
+
+.social-media img {
+  max-width: 50px;
+  max-height: 50px;
+  margin: 0 10px 0 10px;
+}
+
+#about-catcher {
+  margin-top: 1px;
+}
+
+.box-2 {
+  margin-top: 30px;
+}
+
+.name-header {
+  font-weight: 800;
+  font-size: 34px;
+}
+
+@media screen and (min-width:1200px) {
+  .name-header {
+    margin-top: 40px;
+  }
+  .p-body {
+    padding-right: 50px;
+  }
+  #about-catcher {
+    margin-bottom: 100px;
+  }
+  #about-tail {
+    margin-top: 80px;
+  }
+}
+
+.tag {
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+.p-body {
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.box-3 {
+  margin-top: 30px;
+  background-color: #fefefe;
+}
+
+.project-header {
+  margin: 40px 0 50px 0;
+}
+
+.proj-first div,
+.proj-second div {
+  margin-bottom: 30px;
+}
+
+.footer {
+  width: 100%;
+  color: #fefefe;
+}
+
+.box-4 {
+  width: 100%;
+  background-color: #1d5067;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.contact-email {
+  padding-left: 150px;
+  font-size: 18px;
+}
+
+@media screen and (max-width:992px) {
+  .contact-email {
+    padding-left: 0;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+.email-link {
+  margin-top: -15px;
+  font-weight: 300;
+}
+
+.footer-social-media {
+  padding-bottom: 20px;
+}
+
+.box-4 img {
+  width: 50px;
+  height: 50px;
+  margin-left: 5px;
+}
+
+.bottom-footer {
+  background-color: #00324b;
+  padding-top: 10px;
+}
+
+.caption {
+  background-color: #111;
+  color: #f1f1f1;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: -22px;
+}
