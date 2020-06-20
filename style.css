@@ -128,14 +128,15 @@ body {
 } */
 
 .box-1 {
+  margin: -10px;
   width: 100%;
   min-height: 800px;
   max-height: 1100px;
   background: url(images/banner.png) no-repeat fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 160%;
 }
 
 .middle-row {
