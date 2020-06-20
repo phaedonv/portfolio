@@ -2,6 +2,15 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.text-center {
+  text-align: center;
+  color: white;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: bold;
+}
+
 .watermark-1 {
   position:absolute;
   top:2px;
