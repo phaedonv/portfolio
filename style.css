@@ -3,6 +3,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+
 .text-center {
   text-align: center;
   color: white;
@@ -229,12 +230,21 @@ body {
 }
 
 .project-header {
+  color: black;
   margin: 40px 0 50px 0;
 }
 
 .proj-first div,
 .proj-second div {
+  /*display: flex;
+  align-items: space-between;*/
   margin-bottom: 30px;
+}
+
+.proj-first-row,
+.proj-second-row {
+  display: flex;
+  flex-direction: row;
 }
 
 .footer {
