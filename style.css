@@ -10,6 +10,11 @@ body {
   color: #75B8C8;
 }
 
+p::selection { color: #fe5151; }
+.name-header::selection { color: #fe5151; }
+#textie::selection { color: #fe5151; }
+
+
 .pic-center {
   filter: brightness(90%) drop-shadow(0px 4px 8px black);
   text-align: center;
