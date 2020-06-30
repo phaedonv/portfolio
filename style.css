@@ -10,9 +10,12 @@ body {
   color: #75B8C8;
 }
 
+/*selected text color change*/
+
 p::selection { color: #fe5151; }
 .name-header::selection { color: #fe5151; }
 #textie::selection { color: #fe5151; }
+li::selection { color: #fe5151; }
 
 
 .pic-center {
