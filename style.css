@@ -286,8 +286,8 @@ li::-moz-selection { background: none; }
 .proj-first-row,
 .proj-second-row {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .item {
