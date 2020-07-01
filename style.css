@@ -304,7 +304,7 @@ li::-moz-selection { background: none; }
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-
+  justify-content: space-evenly;
 }
 
 .item {
@@ -377,4 +377,10 @@ li::-moz-selection { background: none; }
   width: 350px;
   height: 350px;
   object-fit: cover;
+}
+.project-pic-uc {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  opacity: 0.5;
 }
