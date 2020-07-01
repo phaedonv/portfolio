@@ -1,3 +1,4 @@
+/*
 $(document).ready(function() {
   function setHeight() {
     windowHeight = $(window).innerHeight();
@@ -34,4 +35,5 @@ $(function() {
     }
   });
 });
+*/
 
