@@ -91,6 +91,7 @@ li::-moz-selection { background: none; }
 
 .navbar li {
   float: left;
+
 }
 
 .navbar li a {
@@ -278,8 +279,10 @@ li::-moz-selection { background: none; }
 }
 
 .p-body {
-  font-size: 25px;
+  font-size: 21px;
+  letter-spacing: 4px;
   margin-top: 25px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .box-3 {
@@ -288,7 +291,11 @@ li::-moz-selection { background: none; }
 }
 
 .project-header {
-  color: #368F8B;
+  filter: drop-shadow(0px 4px 8px black);
+  text-align: center;
+  color: white !important;
+  font-weight: 800;
+  font-size: 50px;
   margin: 40px 0 50px 0;
 }
 
@@ -383,4 +390,9 @@ li::-moz-selection { background: none; }
   height: 350px;
   object-fit: cover;
   opacity: 0.5;
+}
+
+ul {
+  letter-spacing: 3px;
+  color: white;
 }
