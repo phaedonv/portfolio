@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900);
 body {
-  background-color: #2D3047;
+  background-color: #353541;
   font-family: 'Teko', 'Roboto', sans-serif;
   font-size: x-large;
 
@@ -11,7 +11,7 @@ body {
 }
 
 #textie {
-  color: #75B8C8;
+  color: #9dc3cf;
 }
 
 #smalltxt {
@@ -287,7 +287,7 @@ li::-moz-selection { background: none; }
 
 .box-3 {
   margin-top: 20px;
-  background-color: #2d3047;
+  background-color: #353541;
 }
 
 .project-header {
@@ -396,3 +396,9 @@ ul {
   letter-spacing: 3px;
   color: white;
 }
+
+#lista {
+  text-align: center;
+  list-style-type:none;
+}
+
