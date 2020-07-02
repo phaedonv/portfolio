@@ -235,6 +235,16 @@ li::-moz-selection { background: none; }
   top: 25px;
 }
 
+.social-media img:hover{
+  background-color: #fe5151;
+  border-radius: 80px;
+}
+
+.box-4 img:hover {
+  background-color: #fe5151;
+  border-radius: 80px;
+}
+
 .social-media img {
   max-width: 50px;
   max-height: 50px;
@@ -372,6 +382,10 @@ li::-moz-selection { background: none; }
   background-color: #ffffff;
   padding-top: 9px;
   padding-bottom: 1px;
+}
+
+#foot-info:hover {
+  color: #fe5151;
 }
 
 .caption {
