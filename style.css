@@ -419,14 +419,14 @@ ul {
   justify-content: center;
 }
 
-#lista {
+#lista, #logia {
   list-style-type:none;
+  font-size: 31px;
 }
 
-#logia {
-  list-style-type:none;
-}
+
 
 .logo {
-  width: 18px;
+  width: 24px;
+  height: auto;
 }
