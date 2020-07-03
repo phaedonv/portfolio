@@ -414,8 +414,19 @@ ul {
   color: white;
 }
 
+#sklogos {
+  display: flex;
+  justify-content: center;
+}
+
 #lista {
-  text-align: center;
   list-style-type:none;
 }
 
+#logia {
+  list-style-type:none;
+}
+
+.logo {
+  width: 18px;
+}
