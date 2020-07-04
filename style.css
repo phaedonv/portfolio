@@ -424,7 +424,19 @@ ul {
   font-size: 31px;
 }
 
+#cv {
+  margin-bottom: -15px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+}
 
+#cv:hover {
+  text-decoration: none;
+  color: red;
+}
 
 .logo {
   width: 24px;
