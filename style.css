@@ -327,8 +327,49 @@ li::-moz-selection { background: none; }
 }
 
 .item {
+  width: 350px;
+  height: 350px;
   margin: 9px;
   border-radius: 6%;
+  transform-style: preserve-3d;
+  transition-delay: 0.5s;
+  overflow: hidden;
+  position: relative;
+}
+
+.item:hover {
+  transform: rotateY(180deg);
+}
+
+.front {
+  transform: rotateY(0deg);
+}
+
+.front:hover {
+  opacity: 0;
+}
+
+.back {
+  transform: rotateY(180deg);
+  opacity: 0;
+  backface-visibility: visible;
+  background-color: black;
+  color: green;
+}
+
+.back:hover {
+  opacity: 1;
+}
+
+.front, .back, .project-pic {
+  transition-delay: 0.15s;
+  transition-delay: 0.15s;
+  box-sizing: border-box;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 .footer {
