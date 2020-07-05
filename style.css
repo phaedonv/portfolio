@@ -240,7 +240,7 @@ li::-moz-selection { background: none; }
   border-radius: 80px;
 }
 
-.box-4 img:hover {
+.footer-social-media img:hover {
   background-color: #fe5151;
   border-radius: 80px;
 }
@@ -441,4 +441,15 @@ ul {
 .logo {
   width: 24px;
   height: auto;
+}
+
+#logo img {
+  border-radius: 80px;
+  filter: blur(1px) grayscale(0.4);
+}
+
+#logo img:hover {
+  background-color: black;
+  filter: invert(100%);
+  border-radius: 80px;
 }
