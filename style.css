@@ -486,7 +486,8 @@ ul {
 
 #sklogos {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
   font-family: 'Teko', 'Roboto', sans-serif !important;
   font-size: 25px;
 }
