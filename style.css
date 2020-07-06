@@ -488,12 +488,12 @@ ul {
   display: flex;
   justify-content: center;
   font-family: 'Teko', 'Roboto', sans-serif !important;
-  font-size: 21px;
+  font-size: 25px;
 }
 
 #lista, #logia {
   list-style-type:none;
-  font-size: 31px;
+
 }
 
 #cv {
@@ -511,7 +511,7 @@ ul {
 }
 
 .logo {
-  width: 24px;
+  width: 21px;
   height: auto;
 }
 
