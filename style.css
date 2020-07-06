@@ -494,7 +494,7 @@ ul {
 
 #lista, #logia {
   list-style-type:none;
-
+  display: initial;
 }
 
 #cv {
