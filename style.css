@@ -121,6 +121,11 @@ li::-moz-selection { background: none; }
     width: 40px;
     height: 40px;
   }
+
+  .p-body {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
 }
 
 @media screen and (max-width:650px) {
@@ -140,6 +145,11 @@ li::-moz-selection { background: none; }
     padding: px;
     font-size: 14px;
   }
+
+  .p-body {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
 }
 
 @media screen and (max-width: 749px) {
@@ -154,6 +164,11 @@ li::-moz-selection { background: none; }
   }
   .navbar-fixed {
     visibility: hidden;
+  }
+
+  .p-body {
+    margin-left: 2px;
+    margin-right: 2px;
   }
 }
 
