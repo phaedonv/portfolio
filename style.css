@@ -383,7 +383,7 @@ li::-moz-selection { background: none; }
   opacity: 0;
   backface-visibility: visible;
   background-color: black;
-  color: green;
+  color: #9dc3cf;
 }
 
 .back:hover {
@@ -532,13 +532,13 @@ ul {
   text-align: center;
   padding: 10px;
   background-color: black;
-  color: lime;
+  color: #9dc3cf;
   font-family: 'Teko', 'Roboto', sans-serif;
-  border: 1px solid lime;
-  border-radius: 20px;
+  border: 1px solid #00ffff;
+  border-radius: 6px;
 }
 
 .btn-outline:hover {
-  background-color: lime;
+  background-color: #00ffff;
   color: black;
 }
