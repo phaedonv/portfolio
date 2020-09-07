@@ -529,7 +529,7 @@ ul {
 
 #logo img {
   border-radius: 80px;
-  filter: blur(1px) grayscale(0.4);
+  /*filter: blur(1px) grayscale(0.4);*/
 }
 
 #logo img:hover {
