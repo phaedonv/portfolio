@@ -409,6 +409,7 @@ li::-moz-selection { background: none; }
   width: 100%;
   top: 0;
   left: 0;
+  object-fit: cover;
 }
 
 .footer {
