@@ -18,6 +18,16 @@ body {
   font-size: smaller;
 }
 
+#text-link {
+  color: white;
+  text-decoration: none;
+}
+
+#text-link:hover {
+  text-decoration: none;
+  color: #fe5151;
+}
+
 /*selected text color change*/
 
 p::selection { color: #fe5151; }
@@ -508,7 +518,7 @@ ul {
 
 #cv:hover {
   text-decoration: none;
-  color: red;
+  color: #fe5151;
 }
 
 .logo {
