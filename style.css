@@ -366,8 +366,8 @@ li::-moz-selection { background: none; }
 }
 
 .item {
-  width: 550px;
-  height: 350px;
+  width: 450px;
+  height: 285px;
   margin: 9px;
   border-radius: 6%;
   transform-style: preserve-3d;
@@ -487,14 +487,14 @@ li::-moz-selection { background: none; }
 }
 
 .project-pic {
-  width: 550px;
-  height: 350px;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
+  object-fit: fill;
 }
 .project-pic-uc {
-  width: 550px;
-  height: 350px;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
+  object-fit: fill;
   opacity: 0.5;
 }
 
