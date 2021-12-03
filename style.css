@@ -309,7 +309,7 @@ li::-moz-selection { background: none; }
     margin-top: 40px;
   }
   .p-body {
-    padding-right: 50px;
+    padding: 0 170px;
   }
   #about-catcher {
     margin-bottom: 100px;
@@ -563,4 +563,10 @@ ul {
 .btn-outline:hover {
   background-color: #00ffff;
   color: black;
+}
+
+/*new entries December-2021*/
+
+#info-aboutme {
+
 }
