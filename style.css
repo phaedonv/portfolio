@@ -576,3 +576,21 @@ ul {
 #info-aboutme {
 
 }
+
+@media only screen and (min-width: 600px) {
+  #textie {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .p-body {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  #sklogos {
+    width: 70%;
+  }
+}
