@@ -18,12 +18,12 @@ body {
   font-size: smaller;
 }
 
-#text-link {
+.text-link {
   color: white;
   text-decoration: none;
 }
 
-#text-link:hover {
+.text-link:hover {
   text-decoration: none;
   color: #fe5151;
 }
