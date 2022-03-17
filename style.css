@@ -461,13 +461,17 @@ li::-moz-selection { background: none; }
 }
 */
 
-.email-link {
+#my-mail {
   margin-top: -15px;
   font-weight: 300;
 }
 
 .footer-social-media {
   padding-bottom: 20px;
+
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 33vw;
 }
 
 .box-4 img {
@@ -603,4 +607,8 @@ ul {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.social-btn {
+  padding: 0 2vw;
 }
