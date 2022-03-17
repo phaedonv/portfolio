@@ -594,3 +594,7 @@ ul {
     width: 64%;
   }
 }
+
+.hidden-social {
+  display: none;
+}
