@@ -598,3 +598,9 @@ ul {
 .hidden-social {
   display: none;
 }
+
+#contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
