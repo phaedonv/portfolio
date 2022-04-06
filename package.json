@@ -2,5 +2,23 @@
   "dependencies": {
     "@emailjs/browser": "^3.5.0",
     "dotenv": "^16.0.0"
-  }
+  },
+  "name": "profile",
+  "description": "![](https://komarev.com/ghpvc/?username=phaedonv&color=ff69b4&label=COFFEES+CONSUMED)",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaedonv/profile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phaedonv/profile/issues"
+  },
+  "homepage": "https://github.com/phaedonv/profile#readme"
 }
