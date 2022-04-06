@@ -1,5 +1,3 @@
-require('dotenv').config()
-
 // const user = process.env.USER_ID;
 
 console.log("hello from script.js");
