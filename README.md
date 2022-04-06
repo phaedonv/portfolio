@@ -35,3 +35,5 @@ Here are some ideas to get you started:
 [![Phaedonv's GitHub stats](https://github-readme-stats.vercel.app/api?username=phaedonv)](https://github.com/phaedonv)
 
 -->
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/aa41cbc4-8e58-4337-98d8-c2ecdc1becfe/deploy-status)](https://app.netlify.com/sites/phaedonv/deploys)
