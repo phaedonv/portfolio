@@ -2,14 +2,6 @@
 <html>
   <head>
     <title>phaedonv</title>
-    <script type="text/javascript" src="script.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
-        (function() {
-        emailjs.init(process.env.USER_ID);
-        })();
-    </script>
-
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
     <meta property="og:image" content="images/profile2.png"/>
@@ -26,6 +18,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+        emailjs.init(process.env.USER_ID);
+        })();
+    </script>
+
+    <!--><script type="text/javascript">
+      import{ init } from '@emailjs/browser';
+      init("lJ1i_MKF2HdfAXStN");
+    </script><-->
   </head>
 
   <body>
@@ -325,7 +330,5 @@
   </div>
 </div>
   </body>
-
-  <script src="myscripts.js"></script>
 
 </html>
