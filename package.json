@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@emailjs/browser": "^3.5.0",
+    "dotenv": "^16.0.0"
+  }
+}
