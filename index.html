@@ -2,6 +2,14 @@
 <html>
   <head>
     <title>phaedonv</title>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+        emailjs.init(process.env.USER_ID);
+        })();
+    </script>
+
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
     <meta property="og:image" content="images/profile2.png"/>
@@ -12,12 +20,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">    <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
   </head>
+
   <body>
     <div class="container box-1" id="home">
   <p class="watermark-2">&copy; phaedonv.</p>
@@ -58,8 +68,9 @@
         <hr>
         <div id="info-aboutme">
           <p class="p-body">
-            I am a full stack web developer graduate, seeking new opportunities. Being motivated
-            and eager to learn new skills and technologies, I am always looking for new ways to evolve. I
+            Hello, <br>
+            I am a full stack web developer graduate, seeking new opportunities! Being motivated
+            and eager to learn new skills and technologies, I always look for new ways to evolve. I
             like to find creative ways to approach problems through collaboration and team work.
             <br><br>
             9-week intensive coding bootcamp learning HTML, CSS, Bootstrap, JavaScript ES2015 (ES6),
@@ -252,10 +263,30 @@
       </div>
     </div>
   </div>
-
-
-
 </div>
+
+<div id="contact">
+  <!--email form-->
+  <form id="contact-form">
+    <input type="hidden" name="contact_number" class="feedback-input">
+
+    <label>Name</label>
+    <input type="text" name="name" class="feedback-input" placeholder="Please enter your name.">
+
+    <label>Email</label>
+    <input type="email" name="email" class="feedback-input" placeholder="Here goes your email!">
+
+    <label>Subject</label>
+    <input type="text" name="subject" class="feedback-input" placeholder="What would be the subject of your message?">
+
+    <label>Message</label>
+    <textarea name="message" class="feedback-input" placeholder="You can write your message here now ;)"></textarea>
+
+    <input type="submit" value="Send" class="feedback-input">
+  </form>
+  <!--end of email form-->
+</div>
+
 <div class="footer">
   <div class="container-fluid box-4">
     <div class="row">
