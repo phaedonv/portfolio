@@ -2,7 +2,7 @@
 
 ![](https://komarev.com/ghpvc/?username=phaedonv&color=ff69b4&label=COFFEES+CONSUMED)
 
-# README is now under construction
+# My portfolio will soon be built using REACT :) 
 
 <hr>
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=phaedonv&show_icons=true&locale=en&layout=compact&theme=synthwave" alt="langs" /></p>
