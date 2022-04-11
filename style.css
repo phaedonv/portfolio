@@ -6,12 +6,17 @@ body {
 
 }
 
+hr {
+  width: 100%;
+}
+
 #tagia {
   color: white;
 }
 
-#textie {
+#textie, #p-title {
   color: #9dc3cf;
+  text-align-last: center;
 }
 
 #smalltxt {
@@ -665,4 +670,8 @@ textarea {
 
 #contact-form label {
     display: none;
+}
+
+#contactjs {
+  display: none;
 }
