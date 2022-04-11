@@ -6,6 +6,10 @@ body {
 
 }
 
+hr {
+  width: 100%;
+}
+
 #tagia {
   color: white;
 }
@@ -337,6 +341,7 @@ li::-moz-selection { background: none; }
   text-align: justify;
   text-align-last: left;
   line-height: 1.5;
+  color: #9dc3cf;
 }
 
 @media screen and (min-width:600px) {
@@ -617,8 +622,8 @@ ul {
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 form { max-width:420px; margin:50px auto;}
 
-#contact {
-
+#emailjs-form {
+  visibility: hidden;
 }
 
 .feedback-input {
@@ -666,3 +671,6 @@ textarea {
 #contact-form label {
     display: none;
 }
+
+/* new project card design from my codepen.io */
+

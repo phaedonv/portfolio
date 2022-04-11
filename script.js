@@ -1,4 +1,4 @@
-console.log("hello from script.js");
+// console.log("hello from script.js");
 
 
 window.onload = function() {
