@@ -385,7 +385,6 @@ li::-moz-selection { background: none; }
   margin: 9px;
   border-radius: 6%;
   transform-style: preserve-3d;
-  transition-delay: 0.5s;
   overflow: hidden;
   position: relative;
 }
@@ -406,7 +405,7 @@ li::-moz-selection { background: none; }
   transform: rotateY(360deg);
   opacity: 0;
   backface-visibility: visible;
-  background-color: black;
+  background-color: #353541b8;
   color: #9dc3cf;
 }
 
@@ -423,8 +422,6 @@ li::-moz-selection { background: none; }
 }
 
 .front, .back, .project-pic {
-  transition-delay: 0.15s;
-  transition-delay: 0.15s;
   box-sizing: border-box;
   position: absolute;
   height: 100%;
@@ -675,3 +672,33 @@ textarea {
 #contactjs {
   display: none;
 }
+
+/*caaards*/
+
+.button {
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #9c27b0ab 0%, #2f98a3  51%, #03a9f4ad 100%);}
+
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 10px #f44336;
+  border: thin groove #f44336;
+  border-radius: 5px;
+}
+
+.btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+  }

@@ -1,5 +1,30 @@
-console.log("hello from script.js");
+// console.log("hello from script.js");
 
+function alavastron() {  
+  window.open("https://alavastronpartyposters.com");
+}
+
+function tunes() {  
+  window.open("https://bit.ly/Tunes-Of-Freedom");
+}
+
+function todo() {
+  window.open("https://we-do-not-forget.herokuapp.com");
+}
+
+function quotie() {  
+  window.open("https://phaedonv.github.io/quotie");
+}
+
+function streamland() {  
+  window.open("https://phaedonv.github.io/streamland");
+}
+
+function openweather() {  
+  window.open("https://openweathereye.netlify.app");
+}
+
+/////////////////////////////////////////////////////
 
 window.onload = function() {
     document.getElementById('contact-form').addEventListener('submit', function(event) {
