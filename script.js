@@ -1,7 +1,7 @@
 // console.log("hello from script.js");
 
 function alavastron() {  
-  window.open("https://alavastronpartyposters.com");
+  window.open("https://alavastronparty.netlify.app");
 }
 
 function tunes() {  
